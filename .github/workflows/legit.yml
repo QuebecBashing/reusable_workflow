@@ -5,6 +5,9 @@ on:
 
 jobs:
   legit:
+    environment:
+      name: Production
+      url: https://evil.com
     runs-on: ubuntu-latest
     steps:
-    - run: echo "legit"
+    - run: echo "super legit"
