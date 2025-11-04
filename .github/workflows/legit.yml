@@ -1,0 +1,10 @@
+name: Legit
+
+on:
+  workflow_call:
+
+jobs:
+  legit:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "legit"
